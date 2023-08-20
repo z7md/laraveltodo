@@ -1,0 +1,152 @@
+body{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #252B48;
+}
+
+.bigtitle{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: #ffffff;
+text-align: center;
+}
+.todos{
+    text-align: center;
+}
+.table1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; 
+position: absolute;
+    width: 800px;
+margin-left: 500px;
+font-size: 36px; 
+}
+.tasks-container{
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.task{
+width: 35%;
+
+}
+.status{
+width: 35%;
+}
+.delete{
+width: 10%;
+}
+.a{
+    /* border-bottom: solid 5px ;
+    border-top: solid 5px ; */
+    justify-content: flex-start;
+}
+.tasks-table{
+    width: 600px;
+margin: auto;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.done{
+    margin-right:10px;
+}
+.on-progress{
+    margin-left: 10px;
+}
+.create-user{
+    margin-right: 30px;
+    float: right;
+}
+.big-title{
+    display:inline;
+    margin-left: 50px;
+}
+.container1{
+    display: flex;
+}
+.nave{
+    color: white;
+}
+.nave:hover{
+    color:rgb(200, 200, 255) ;
+}
+.edit{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.done{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    font-size: 30px;
+    width: 50px;
+    color: black;
+    height: 50px;
+}
+.on-progress{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: black;
+    flex: 1 1 auto;
+width: 50px;
+}
+.delete{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: black;
+    flex: 1 1 auto;
+    width: 50px;
+}
+
+.text-todo{
+color: darkred;
+}
+.text-done{
+    color: rgb(118, 255, 118);
+}
+.text-onprogress{
+    color: blue;
+}
+.user-filter{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.container-tasks{
+    display: flex;
+    justify-content:space-around;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottom-container{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px)  {
+       .tasks-table{
+        width: auto;
+      } 
+}
